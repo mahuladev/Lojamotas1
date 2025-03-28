@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="BoasVindas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BoasVindasAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CadastroAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EsqueceuSenha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Funcionario\Caixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Funcionario\Definicoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Funcionario\Faturar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Funcionario\ListaDeProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Funcionario\MeuPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Funcionario\TelaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Funcionario\Venda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gerente\AlterarFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gerente\CadastroFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gerente\Contactos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gerente\Estoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gerente\ListaDeFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gerente\Relatorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gerente\TelaPrincipalGerente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RedefinirSenha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Gerente\TelaPrincipalGerente.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
